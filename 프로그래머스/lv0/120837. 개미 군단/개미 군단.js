@@ -24,5 +24,3 @@ function solution(hp) {
     var result = j_1 + b_1 + b_2;
    return result;
 }
-
-solution(999);
