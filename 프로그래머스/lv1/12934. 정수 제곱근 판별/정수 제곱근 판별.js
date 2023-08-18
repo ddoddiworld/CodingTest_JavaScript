@@ -5,9 +5,7 @@ function solution(n) {
     // n이 제곱이 아니면 -1을 리턴
 
     if (Math.sqrt(n) % 1 == 0){ // 제곱근 맞음
-        var a = Math.sqrt(n) + 1;
-        return a * a;
-
+        return Math.pow(Math.sqrt(n)+1, 2);
     } else { // 제곱근 아님
         return -1;
     }
