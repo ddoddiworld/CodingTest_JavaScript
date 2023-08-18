@@ -5,7 +5,7 @@ function solution(arr) {
     let newArr = Math.min(...arr); // 가장 작은 값 찾기
     let newArr2 = arr.filter((item) => item !== newArr);
 
-    if (!newArr2.length == []) {
+    if (!newArr2.length < 1) {
         return newArr2;
     } else {
         return [-1];
