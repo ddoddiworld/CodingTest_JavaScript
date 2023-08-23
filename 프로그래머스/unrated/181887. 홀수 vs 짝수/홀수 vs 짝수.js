@@ -14,11 +14,5 @@ function solution(num_list) {
     var sumOdd = odd.reduce((a, b) => a + b);
     var sumEven = even.reduce((c, d) => c + d);
 
-    if (sumOdd > sumEven){
-        return sumOdd;
-    } else if (sumOdd < sumEven){
-        return sumEven;
-    } else {
-        return sumOdd
-    }
+    return sumOdd > sumEven ? sumOdd : sumEven
 }
